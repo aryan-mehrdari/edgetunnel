@@ -1,8 +1,8 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = 'f0f2e7ec-d0d2-4903-9d1f-8cf5f2fd6805';
-let proxyIP = 'your_ip';
+let userID = 'c63bb1fe-c951-42ac-acf9-b404b23a6369';
+let proxyIP = '104.23.101.9';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLmZ4eGsuZGVkeW4uaW8=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
@@ -1199,7 +1199,7 @@ function 配置信息(UUID, 域名地址) {
 	const 指纹 = 'randomized';
 
 	if (域名地址.includes('.workers.dev')) {
-		地址 = atob('dmlzYS5jbg==');
+		地址 = atob('b25lLm9uZS5vbmUub25l');
 		端口 = 80;
 		传输层安全 = ['', false];
 	}
